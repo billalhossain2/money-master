@@ -23,7 +23,7 @@ main{
     padding:10px 0;
 }
 
-form input{
+.form-container input{
     border: none;
     outline: none;
     padding: 10px 15px;

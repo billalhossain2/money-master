@@ -29,55 +29,58 @@
             <img src="./img/banner.png" alt="">
         </div>
         <div class="form-container">
-            <form action="">
                 <table>
                     <tr><td colspan="2" class="title">Income</td></tr>
+                    <form action="" id="form1">
                     <tr>
                         <td>Income:</td>
-                        <td><input id="income-input-field" type="number" placeholder="Income"></td>
+                        <td><input id="income-input-field" type="number" placeholder="Income" required></td>
                     </tr>
                     <tr><td colspan="2" class="title">Expense</td></tr>
                     <tr>
                         <td>Food:</td>
-                        <td><input id="food-input-field" type="number" placeholder="Food cost"></td>
+                        <td><input id="food-input-field" type="number" placeholder="Food cost" required></td>
                     </tr>
                     <tr>
                         <td>Rent:</td>
-                        <td><input id="rent-input-field" type="number" placeholder="Rent cost"></td>
+                        <td><input id="rent-input-field" type="number" placeholder="Rent cost" required></td>
                     </tr>
                     <tr>
                         <td>Clothes:</td>
-                        <td><input id="clothes-input-field" type="number" placeholder="Clothes cost"></td>
+                        <td><input id="clothes-input-field" type="number" placeholder="Clothes cost" required></td>
                     </tr>
                     <tr><td colspan="2" class="title"><button id="calculate-btn">Calculate</button></td></tr>
-                    <tr><td colspan="2" class="title"><span>Total Expenses</span>:<span id="total-expense-container">5400</span></td></tr>
-                    <tr><td colspan="2" class="title"><span>Balance</span>:<span id="balance-container">300</span></td></tr>
+                </form>
+                    <tr><td colspan="2" class="title"><span>Total Expenses</span>:<span id="total-expense-container">00</span></td></tr>
+                    <tr><td colspan="2" class="title"><span>Balance</span>:<span id="balance-container">00</span></td></tr>
+                    <form action="" id="saving-form">
                     <tr>
                         <td colspan="4" class="title">
                             <span>Save</span>
-                            <input id="savings-input-field" type="number">
+                            <input id="savings-input-field" type="number" required>
                             <span>%</span>
                             <button id="save-btn">Save</button>
                         </td>
                     </tr>
+                </form>
                     <tr>
                         <td colspan="2" class="title">
                             <span>Saving Amount: </span>
-                            <span id="saving-amount-container">2500</span>
+                            <span id="saving-amount-container">00</span>
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2" class="title">
                             <span>Remaining Balance: </span>
-                            <span id="remaining-balance-container">2000</span>
+                            <span id="remaining-balance-container">00</span>
                         </td>
                     </tr>
                     <tr><td colspan="4" class="title"><button class="reset-btn" id="reset-all-btn">Reset All</button></td></tr>
                 </table>
-            </form>
         </div>
     </main>
     <footer></footer>
+    <script src="js/utilities.js"></script>
     <script type="module" src="js/money-master.js"></script>
   </body>
 </html>
