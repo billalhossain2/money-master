@@ -42,6 +42,10 @@ button{
     font-weight: 700;
 }
 
+.reset-btn{
+    background: #c01f1f;
+}
+
 
 /* responsive style for mobile  */
 @media only screen and (max-width: 900px) {
