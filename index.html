@@ -15,7 +15,62 @@
     <title>Money Master</title>
   </head>
   <body>
-    <h1>Let's go</h1>
+    <header>
+        <h1>Money Master💰 </h1>
+    </header>
+    <main>
+        <div class="banner-container">
+            <img src="./img/banner.png" alt="">
+        </div>
+        <div class="form-container">
+            <form action="">
+                <table>
+                    <tr><td colspan="2" class="title">Income</td></tr>
+                    <tr>
+                        <td>Income:</td>
+                        <td><input id="income-input-field" type="number" placeholder="Income"></td>
+                    </tr>
+                    <tr><td colspan="2" class="title">Expense</td></tr>
+                    <tr>
+                        <td>Food:</td>
+                        <td><input id="food-input-field" type="number" placeholder="Food cost"></td>
+                    </tr>
+                    <tr>
+                        <td>Rent:</td>
+                        <td><input id="rent-input-field" type="number" placeholder="Rent cost"></td>
+                    </tr>
+                    <tr>
+                        <td>Clothes:</td>
+                        <td><input id="clothes-input-field" type="number" placeholder="Clothes cost"></td>
+                    </tr>
+                    <tr><td colspan="2" class="title"><button id="calculate-btn">Calculate</button></td></tr>
+                    <tr><td colspan="2" class="title"><span>Total Expenses</span>:<span id="total-expense-container">5400</span></td></tr>
+                    <tr><td colspan="2" class="title"><span>Balance</span>:<span id="balance-container">300</span></td></tr>
+                    <tr>
+                        <td colspan="4" class="title">
+                            <span>Save</span>
+                            <input id="savings-input-field" type="number">
+                            <span>%</span>
+                            <button id="save-btn">Save</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="title">
+                            <span>Saving Amount: </span>
+                            <span id="saving-amount-container">2500</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="title">
+                            <span>Remaining Balance: </span>
+                            <span id="remaining-balance-container">2000</span>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
     <script type="module" src="js/money-master.js"></script>
   </body>
 </html>
